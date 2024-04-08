@@ -1,36 +1,37 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-.container{
-  width: 95%;
+.container {
+  width: 80%;
   max-width: 1920px;
   margin: auto;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.j-between{
+.j-between {
   justify-content: space-between;
 }
 
-.align-center{
- align-items: center;
+.align-center {
+  align-items: center;
 }
 
-.unstyled{
+.unstyled {
   list-style: none;
 }
 
-.g-2{
+.g-2 {
   gap: 2rem;
 }
 
-body{
+body {
   background-color: #060607;
 }
 
@@ -44,19 +45,19 @@ header {
 }
 
 .menu {
-  gap: 1.5rem; 
-  
+  gap: 1.5rem;
+
 }
 
 ul li a {
   display: flex;
   text-decoration: none;
-  color: rgb(161, 161, 161); 
+  color: rgb(161, 161, 161);
   font-size: 17px;
   font-weight: bold;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: white;
   font-size: 18.5px;
 }
@@ -67,7 +68,7 @@ span a {
   color: black;
   background-color: yellow;
   padding: 3px 3px;
-  margin:0 20px 0 5px;
+  margin: 0 20px 0 5px;
 }
 
 button a {
@@ -86,4 +87,98 @@ button a {
   height: 40px;
   margin-top: -12px;
   font-weight: bold;
+}
+
+/* MAIN */
+main{
+  height: 100%;
+}
+.jumbotron {
+  background-image: url('/public/image/slider82x-scaled.jpg');
+  background-size: cover;
+  object-fit: contain;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.jumbotron-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jumbotron-text {
+  background: linear-gradient(to right, rgb(6, 6, 7) 76%, rgba(3, 3, 3, 0.836) 25%,rgba(3, 3, 3, 0.096)10% );
+  height: 705px;
+  width: 63%;
+  padding-left: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  > h1{
+    font-size: 70px;
+  }
+
+  > .red{
+    font-size: 20px;
+    color: red;
+  }
+
+  > .trasp{
+    color: rgba(255, 255, 255, 0.473);
+  }
+
+  > .wave{
+    color: yellow;
+    font-size: 40px;
+  }
+}
+
+
+.light-b{
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    margin-right: 30px;
+    background-color: #4154FF;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .dark-b{
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: white;
+    margin-right: 50px;
+    background-color: #060607;
+    color: white;
+  }
+
+
+
+.play-button {
+  background-color: rgba(255, 255, 255, 0.5); /* Sfondo semitrasparente */
+  border: none;
+  padding: 20px; /* Aumenta la dimensione del pulsante */
+  border-radius: 50%; /* Rende il pulsante circolare */
+  position: relative;
+  cursor: pointer;
+}
+
+.jumbotron-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron-images img {
+  width: 50px;
+  margin-bottom: 10px;
 }
