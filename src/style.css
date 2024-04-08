@@ -90,6 +90,8 @@ button a {
 }
 
 /* MAIN */
+
+/* JUMBOTRON */
 main{
   height: 100%;
 }
@@ -110,7 +112,7 @@ main{
 
 .jumbotron-text {
   background: linear-gradient(to right, rgb(6, 6, 7) 76%, rgba(3, 3, 3, 0.836) 25%,rgba(3, 3, 3, 0.096)10% );
-  height: 705px;
+  height: 700px;
   width: 63%;
   padding-left: 40px;
   color: white;
@@ -181,4 +183,50 @@ main{
 .jumbotron-images img {
   width: 50px;
   margin-bottom: 10px;
+}
+
+
+/* TRAINING */
+#training{
+  background: linear-gradient(to bottom right, blue, purple, red);
+  height: 900px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.training-img{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  > img{
+    display: block;
+    width:calc((100% /3) - 30px);
+    border-bottom-right-radius: 50px;  
+    position: relative;
+    top: -90px;
+    
+  }
+} 
+
+.form{
+  width: 50%;
+  margin: 30px auto;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  >img{
+    display: block;
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
 }

@@ -41,7 +41,7 @@ export default {
     </div>
 
     <main>
-      <div class="jumbotron">
+      <section class="jumbotron">
         <div class="container">
           <div class="jumbotron-container">
             <div class="jumbotron-text">
@@ -61,7 +61,27 @@ export default {
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section id="training">
+        <div class="container">
+          <div class="training-img">
+            <img src="/public/image/service6-2x.jpg" alt="">
+            <img src="/public/image/box1-2x.jpg" alt="">
+            <img src="/public/image/box3-2x.jpg" alt="">
+          </div>
+          <div class="form">
+            <h3>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque nisi unde est mollitia dicta
+              pariatur, modi iste odit ad accusantium sunt."</h3>
+              <p class="wave">&#8767&#8767&#8767</p>
+            <div class="testimonial">
+              <img src="/public/image/avatar-1-2x - Copia.jpg" alt="">
+              <span>Brand Johnson</span><span>Las Vegas</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
   </body>
