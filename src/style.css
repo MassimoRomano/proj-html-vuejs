@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 95%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.j-between{
+  justify-content: space-between;
+}
+
+.align-center{
+ align-items: center;
+}
+
+.unstyled{
+  list-style: none;
+}
+
+.g-2{
+  gap: 2rem;
+}
+
+body{
+  background-color: #060607;
+}
+
+/* Header */
+header {
+  height: 100px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  gap: 1.5rem; 
+  
+}
+
+ul li a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(161, 161, 161); 
+  font-size: 17px;
+  font-weight: bold;
+}
+
+ul li a:hover{
+  color: white;
+  font-size: 18.5px;
+}
+
+span a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  background-color: yellow;
+  padding: 3px 3px;
+  margin:0 20px 0 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.workout {
+  background-color: #4154FF;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  margin-top: -12px;
+  font-weight: bold;
+}
