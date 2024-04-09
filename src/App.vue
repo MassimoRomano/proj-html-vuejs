@@ -14,8 +14,8 @@ export default {
 
   <body>
     <!-- HEADER -->
+    <header>
     <div class="container">
-      <header>
         <div class="logo">
           <img src="/public/image/logo.png" alt="" srcset="">
         </div>
@@ -38,8 +38,8 @@ export default {
 
           </div>
         </div>
-      </header>
     </div>
+  </header>
 
     <!-- START MAIN -->
     <!-- JUMBOTRON -->
@@ -118,7 +118,7 @@ export default {
             <p class="tune">Tune up your workouts</p>
             <h4>The best health & fitness advice online</h4>
             <div>
-              <span><img src="" alt=""></span><span><img src="" alt=""></span>
+              <span><img style="width: 4%;" src="/public/image/unnamed.jpg" alt=""></span><span><img src="" alt=""></span>
             </div>
             <p class="arcu">Arcu eu facilisi ut quisque nunc habitant.Magna sempre mauris,venenatis,leo integer sit
               pellentesque</p>
@@ -129,7 +129,6 @@ export default {
           <div class="text-featured">
             <h5>Featured playlists</h5>
             <p>View all videos <i class="fa-solid fa-chevron-right"></i></p>
-
           </div>
           <div class="wrap-featured">
             <div class="featured-video">
@@ -147,6 +146,81 @@ export default {
             <div class="featured-video">
               <img src="/public/image/video9-2x.jpg" alt="">
               <button class="play"><i class="fa-solid fa-circle-play"></i></button>
+              <h3>Slim & trim your waist</h3>
+              <p>Shed those extra pounds</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN -->
+      <section id="Join">
+        <div class="join-jumbotron">
+          <div class="container">
+            <div class="jumbotron-text" id="join-text">
+              <p class="red">Join our mailing list today</p>
+              <h1>Insider offers & flash sales in your inbox every week.</h1>
+              <p class="wave">&#8767&#8767&#8767</p>
+              <div>
+                <input class="join-email" type="email" name="" id="" placeholder="Insert your email...*">
+                <button class="light-b" type="button">Subscribe</button>
+              </div>
+              <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur adipiscing
+                elit sed portitor lectus</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="learn">
+        <div class="container">
+          <div class="learn-wrap">
+            <div class="card-body">
+              <h5 class="card-title"> Team Training</h5>
+              <p class="card-text">Find a partner</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores cupiditate excepturi
+                necessitatibus, id dolore at temporibus nobis provident.</p>
+              <p>FInd a partner <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Team Training</h5>
+              <p class="card-text">Find a partner</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores cupiditate excepturi
+                necessitatibus, id dolore at temporibus nobis provident.</p>
+              <p>FInd a partner <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <h5> Team Training</h5>
+                <p>Find a partner</p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores cupiditate excepturi
+                necessitatibus, id dolore at temporibus nobis provident.</p>
+              <p>FInd a partner <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="latest">
+        <div class="container">
+          <div class="text-latest">
+            <h5>Featured playlists</h5>
+            <p>View all videos <i class="fa-solid fa-chevron-right"></i></p>
+          </div>
+          <div class="wrap-latest">
+            <div class="latest-img">
+              <img src="/public/image/video2-2x.jpg" alt="">
+              <h3>Thinghs & glute workout</h3>
+              <p>Increase your mobility</p>
+            </div>
+            <div class="latest-img">
+              <img src="/public/image/blog1-2x-1200x773.jpg" alt="">
+              <h3>Lift,firm & perk up</h3>
+              <p>Feel young again</p>
+            </div>
+            <div class="latest-img">
+              <img src="/public/image/blog3-2x-1200x773.jpg" alt="">
               <h3>Slim & trim your waist</h3>
               <p>Shed those extra pounds</p>
             </div>

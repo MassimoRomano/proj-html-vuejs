@@ -37,9 +37,6 @@
   border: none;
 }
 
-body {
-  background-color: #060607;
-}
 
 /* Header */
 header {
@@ -48,6 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #060607;
 }
 
 .menu {
@@ -379,4 +377,121 @@ main {
     color: #4154FF;
     padding-top: 20px; 
    }
+}
+
+/* JOIN */
+#join{
+  height: 100%;
+  background-color: #060607;
+}
+
+.join-jumbotron {
+  background-image: url('/public/image/banner1-2x.jpg');
+  background-size: cover;
+  object-fit: contain;
+  height: 700px;
+  width: 100%; 
+}
+
+.join-email{
+  width: 65%;
+  height: 40px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+
+}
+
+#join-text{
+  padding: 0 0px;
+}
+
+.jumbotron-text{
+  > p {
+    margin-top: 20px;
+    color: #707070;
+    padding-right: 150px;
+  }
+} 
+
+/* LEARN */
+#learn {
+  background-color: #060607;
+  height: auto;
+}
+
+.learn-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 0;
+
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 60px;
+  width: calc((100% / 3) - 50px);
+  color: white;
+  border: solid 2px #4154FF;
+
+  > p{
+    margin-bottom: 50px;
+  }
+}
+
+.card-text{
+  margin-bottom: 50px;
+}
+
+/* LATEST */
+#latest{
+  height: auto;
+}
+
+.wrap-latest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px 0;
+
+}
+
+.latest-img {
+  width: calc((100% / 3) - 40px);
+  text-align: center;
+
+  >img {
+    display: block;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+    padding-bottom: 30px;
+  }
+
+  > p {
+    color: #4154FF;
+    padding-top: 20px; 
+    
+   }
+}
+
+.text-latest{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 50px;
+
+  > h5{
+    font-size: 20px;
+  }
+
+  > p {
+    padding-right: 50px;
+    font-weight: bold;
+  }
 }
