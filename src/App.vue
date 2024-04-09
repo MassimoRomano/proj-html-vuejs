@@ -15,7 +15,7 @@ export default {
   <body>
     <!-- HEADER -->
     <header>
-    <div class="container">
+      <div class="container">
         <div class="logo">
           <img src="/public/image/logo.png" alt="" srcset="">
         </div>
@@ -38,8 +38,8 @@ export default {
 
           </div>
         </div>
-    </div>
-  </header>
+      </div>
+    </header>
 
     <!-- START MAIN -->
     <!-- JUMBOTRON -->
@@ -118,7 +118,8 @@ export default {
             <p class="tune">Tune up your workouts</p>
             <h4>The best health & fitness advice online</h4>
             <div>
-              <span><img style="width: 4%;" src="/public/image/unnamed.jpg" alt=""></span><span><img src="" alt=""></span>
+              <span><img style="width: 4%;" src="/public/image/unnamed.jpg" alt=""></span><span><img src=""
+                  alt=""></span>
             </div>
             <p class="arcu">Arcu eu facilisi ut quisque nunc habitant.Magna sempre mauris,venenatis,leo integer sit
               pellentesque</p>
@@ -172,6 +173,7 @@ export default {
         </div>
       </section>
 
+      <!-- LEARN -->
       <section id="learn">
         <div class="container">
           <div class="learn-wrap">
@@ -202,6 +204,7 @@ export default {
         </div>
       </section>
 
+      <!-- LATEST -->
       <section id="latest">
         <div class="container">
           <div class="text-latest">
@@ -225,6 +228,21 @@ export default {
               <p>Shed those extra pounds</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- BUY-AVADA -->
+      <section id="buy-avada">
+        <div class="buy-jumbotron">
+            <div class="buy-avada-text" id="buy-text">
+              <h1>"I've failed over and over again in my life.And that is why I succeed."</h1>
+              <p class="wave">&#8767&#8767&#8767</p>
+              <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur adipiscing
+                elit sed portitor lectus</p>
+              <div>
+                <button class="light-b" type="button">Subscribe</button>
+              </div>
+            </div>
         </div>
       </section>
 
