@@ -210,12 +210,45 @@ main{
   }
 } 
 
+.text-img{
+  position: relative;
+  top: -625px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: calc((100% /3) - 30px);
+}
+
+.text-contenitor{
+  background: linear-gradient(to bottom, rgba(6, 6, 7, 0.31),rgba(6, 6, 7, 0.11));
+  height: 505px;
+  padding-left: 30px;
+  padding-top: 330px;
+  border-bottom-right-radius: 50px;
+
+  > span{
+    font-size: 40px;
+  }
+
+  > h4{
+    font-size: 30px;
+  }
+
+  > p{
+    font-size: 20px;
+    color: yellow;
+  }
+}
+
 .form{
   width: 50%;
-  margin: 30px auto;
+  margin: 0px auto;
   color: white;
   font-size: 30px;
   text-align: center;
+  position: relative;
+  top: -500px;
 }
 
 .testimonial{

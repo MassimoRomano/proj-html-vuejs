@@ -69,11 +69,32 @@ export default {
             <img src="/public/image/service6-2x.jpg" alt="">
             <img src="/public/image/box1-2x.jpg" alt="">
             <img src="/public/image/box3-2x.jpg" alt="">
+            <div class="text-img">
+              <div class="text-contenitor">
+                <span>&#8767&#8767&#8767</span>
+                <h4>CrossFit Workout</h4>
+                <p>Push your limit</p>
+              </div>
+            </div>
+            <div class="text-img">
+              <div class="text-contenitor">
+                <span>&#8767&#8767&#8767</span>
+                <h4>CrossFit Workout</h4>
+                <p>Push your limit</p>
+              </div>
+            </div>
+            <div class="text-img">
+              <div class="text-contenitor">
+                <span>&#8767&#8767&#8767</span>
+                <h4>CrossFit Workout</h4>
+                <p>Push your limit</p>
+              </div>
+            </div>
           </div>
           <div class="form">
             <h3>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque nisi unde est mollitia dicta
               pariatur, modi iste odit ad accusantium sunt."</h3>
-              <p class="wave">&#8767&#8767&#8767</p>
+            <p class="wave">&#8767&#8767&#8767</p>
             <div class="testimonial">
               <img src="/public/image/avatar-1-2x - Copia.jpg" alt="">
               <span>Brand Johnson</span><span>Las Vegas</span>
