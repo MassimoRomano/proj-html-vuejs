@@ -31,6 +31,12 @@
   gap: 2rem;
 }
 
+.play {
+  color: red;
+  cursor: pointer;
+  border: none;
+}
+
 body {
   background-color: #060607;
 }
@@ -92,26 +98,28 @@ button a {
 /* MAIN */
 
 /* JUMBOTRON */
-main{
-  height: 100%;
+main {
+  height: auto;
+  position: relative;
 }
+
 .jumbotron {
   background-image: url('/public/image/slider82x-scaled.jpg');
   background-size: cover;
   object-fit: contain;
   height: 700px;
   width: 100%;
-  position: relative;
+
 }
 
-.jumbotron-container{
+.jumbotron-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .jumbotron-text {
-  background: linear-gradient(to right, rgb(6, 6, 7) 76%, rgba(3, 3, 3, 0.836) 25%,rgba(3, 3, 3, 0.096)10% );
+  background: linear-gradient(to right, rgb(6, 6, 7) 76%, rgba(3, 3, 3, 0.836) 25%, rgba(3, 3, 3, 0.096)10%);
   height: 700px;
   width: 63%;
   padding-left: 40px;
@@ -121,59 +129,50 @@ main{
   justify-content: center;
   gap: 10px;
 
-  > h1{
+  >h1 {
     font-size: 70px;
   }
 
-  > .red{
+  >.red {
     font-size: 20px;
     color: red;
   }
 
-  > .trasp{
+  >.trasp {
     color: rgba(255, 255, 255, 0.473);
   }
 
-  > .wave{
+  >.wave {
     color: yellow;
     font-size: 40px;
   }
 }
 
 
-.light-b{
-    width: 25%;
-    height: 40px;
-    text-align: center;
-    border-radius: 20px;
-    border: none;
-    margin-right: 30px;
-    background-color: #4154FF;
-    color: white;
-    margin-top: 20px;
-  }
-
-  .dark-b{
-    width: 20%;
-    height: 40px;
-    text-align: center;
-    border-radius: 20px;
-    border-color: white;
-    margin-right: 50px;
-    background-color: #060607;
-    color: white;
-  }
-
-
-
-.play-button {
-  background-color: rgba(255, 255, 255, 0.5); /* Sfondo semitrasparente */
+.light-b {
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
   border: none;
-  padding: 20px; /* Aumenta la dimensione del pulsante */
-  border-radius: 50%; /* Rende il pulsante circolare */
-  position: relative;
-  cursor: pointer;
+  margin-right: 30px;
+  background-color: #4154FF;
+  color: white;
+  margin-top: 20px;
 }
+
+.dark-b {
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border-color: white;
+  margin-right: 50px;
+  background-color: #060607;
+  color: white;
+}
+
+
 
 .jumbotron-images {
   display: flex;
@@ -186,33 +185,34 @@ main{
 }
 
 
+
+
 /* TRAINING */
-#training{
+#training {
   background: linear-gradient(to bottom right, blue, purple, red);
-  height: 900px;
-  position: absolute;
+  height: 950px;
   display: flex;
   flex-direction: column;
 }
 
-.training-img{
+.training-img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 
-  > img{
+  >img {
     display: block;
-    width:calc((100% /3) - 30px);
-    border-bottom-right-radius: 50px;  
+    width: calc((100% /3) - 30px);
+    border-bottom-right-radius: 50px;
     position: relative;
     top: -90px;
-    
-  }
-} 
 
-.text-img{
+  }
+}
+
+.text-img {
   position: relative;
-  top: -625px;
+  top: -623px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -220,28 +220,28 @@ main{
   width: calc((100% /3) - 30px);
 }
 
-.text-contenitor{
-  background: linear-gradient(to bottom, rgba(6, 6, 7, 0.31),rgba(6, 6, 7, 0.11));
-  height: 505px;
+.text-contenitor {
+  background: linear-gradient(to bottom, rgba(6, 6, 7, 0.31), rgba(6, 6, 7, 0.11));
+  height: 503px;
   padding-left: 30px;
   padding-top: 330px;
   border-bottom-right-radius: 50px;
 
-  > span{
+  >span {
     font-size: 40px;
   }
 
-  > h4{
+  >h4 {
     font-size: 30px;
   }
 
-  > p{
+  >p {
     font-size: 20px;
     color: yellow;
   }
 }
 
-.form{
+.form {
   width: 50%;
   margin: 0px auto;
   color: white;
@@ -251,15 +251,132 @@ main{
   top: -500px;
 }
 
-.testimonial{
+.testimonial {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  >img{
+
+  >img {
     display: block;
     width: 10%;
     border-radius: 100%;
     margin-right: 20px;
   }
+}
+
+/* HEALTH */
+#health {
+  background-color: white;
+  height: 1400px;
+}
+
+.health-contanitor {
+  display: flex;
+  align-items: center;
+}
+
+.left-health {
+  width: calc(100% / 2);
+  margin-right: 0px;
+  text-align: center;
+
+  >img {
+    display: block;
+    width: 85%;
+    border-bottom-right-radius: 110px;
+    position: relative;
+    top: -50px;
+  }
+
+  >span {
+    font-size: 70px;
+    position: relative;
+    top: -500px;
+    left: -50px;
+    background-color: white;
+    border-radius: 70%;
+    height: 50px;
+  }
+}
+
+.right-health {
+  width: 850px;
+  margin-top: -50px;
+  padding-right: 90px;
+  text-align: start;
+
+  >.tune {
+    color: #4154FF;
+    font-size: 20px;
+
+  }
+
+  >h4 {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  >.arcu {
+    color: #858586;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  >button {
+    background-color: red;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+  }
+}
+
+.text-featured{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  > h5{
+    font-size: 20px;
+  }
+
+  > p {
+    padding-right: 50px;
+    font-weight: bold;
+  }
+}
+
+
+
+.wrap-featured {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+
+.featured-video {
+  width: calc((100% / 3) - 40px);
+  text-align: center;
+
+  >img {
+    display: block;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+  }
+
+  > button{
+    font-size: 40px;
+    position: relative;
+    bottom: 170px;
+    
+  }
+
+  > p {
+    color: #4154FF;
+    padding-top: 20px; 
+   }
 }

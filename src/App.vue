@@ -13,6 +13,7 @@ export default {
 <template>
 
   <body>
+    <!-- HEADER -->
     <div class="container">
       <header>
         <div class="logo">
@@ -40,6 +41,8 @@ export default {
       </header>
     </div>
 
+    <!-- START MAIN -->
+    <!-- JUMBOTRON -->
     <main>
       <section class="jumbotron">
         <div class="container">
@@ -54,7 +57,7 @@ export default {
                 <button class="dark-b" type="button">Buy Avda Today</button>
               </div>
             </div>
-            <button class="play-button">Play</button>
+            <span class="play-button"></span>
             <div class="jumbotron-images">
               <img src="" alt="Immagine 1">
               <img src="" alt="Immagine 2">
@@ -63,6 +66,7 @@ export default {
         </div>
       </section>
 
+      <!-- HEALTH SECTION -->
       <section id="training">
         <div class="container">
           <div class="training-img">
@@ -98,6 +102,53 @@ export default {
             <div class="testimonial">
               <img src="/public/image/avatar-1-2x - Copia.jpg" alt="">
               <span>Brand Johnson</span><span>Las Vegas</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HEALTH -->
+      <section id="health">
+        <div class="health-contanitor">
+          <div class="left-health">
+            <img src="/public/image/service15-2x.jpg" alt="">
+            <span class="play"><i class="fa-solid fa-circle-play"></i></span>
+          </div>
+          <div class="right-health">
+            <p class="tune">Tune up your workouts</p>
+            <h4>The best health & fitness advice online</h4>
+            <div>
+              <span><img src="" alt=""></span><span><img src="" alt=""></span>
+            </div>
+            <p class="arcu">Arcu eu facilisi ut quisque nunc habitant.Magna sempre mauris,venenatis,leo integer sit
+              pellentesque</p>
+            <button type="button">Visit my YouTube channel</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="text-featured">
+            <h5>Featured playlists</h5>
+            <p>View all videos <i class="fa-solid fa-chevron-right"></i></p>
+
+          </div>
+          <div class="wrap-featured">
+            <div class="featured-video">
+              <img src="/public/image/video2-2x.jpg" alt="">
+              <button class="play"><i class="fa-solid fa-circle-play"></i></button>
+              <h3>Thinghs & glute workout</h3>
+              <p>Increase your mobility</p>
+            </div>
+            <div class="featured-video">
+              <img src="/public/image/video7-2x.jpg" alt="">
+              <button class="play"><i class="fa-solid fa-circle-play"></i></button>
+              <h3>Lift,firm & perk up</h3>
+              <p>Feel young again</p>
+            </div>
+            <div class="featured-video">
+              <img src="/public/image/video9-2x.jpg" alt="">
+              <button class="play"><i class="fa-solid fa-circle-play"></i></button>
+              <h3>Slim & trim your waist</h3>
+              <p>Shed those extra pounds</p>
             </div>
           </div>
         </div>
