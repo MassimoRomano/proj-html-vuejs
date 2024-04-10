@@ -32,7 +32,7 @@
 }
 
 .play {
-  color: red;
+  color: #ff414b;
   cursor: pointer;
   border: none;
 }
@@ -41,10 +41,7 @@
 /* Header */
 header {
   height: 100px;
-  padding: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 1.7rem 0;
   background-color: #060607;
 }
 
@@ -63,14 +60,13 @@ ul li a {
 
 ul li a:hover {
   color: white;
-  font-size: 18.5px;
 }
 
 span a {
   text-decoration: none;
   font-size: 14px;
   color: black;
-  background-color: yellow;
+  background-color: #fff941;
   padding: 3px 3px;
   margin: 0 20px 0 5px;
 }
@@ -89,8 +85,25 @@ button a {
   text-align: center;
   width: 160px;
   height: 40px;
-  margin-top: -12px;
   font-weight: bold;
+  margin: -12px 20px 0 20px;
+}
+
+.workout:hover {
+  background-color: #5a6afc;
+}
+
+.icon {
+  color: white;
+
+  >i {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  >i:hover{
+    color: #4154FF;
+  }
 }
 
 /* MAIN */
@@ -117,7 +130,7 @@ main {
 }
 
 .jumbotron-text {
-  background: linear-gradient(90deg, rgba(6,6,7,1) 85%, rgba(6,6,7,0.577468487394958) 98%, rgba(6,6,7,0) 100%);
+  background: linear-gradient(90deg, rgba(6, 6, 7, 1) 85%, rgba(6, 6, 7, 0.577468487394958) 98%, rgba(6, 6, 7, 0) 100%);
   height: 700px;
   width: 67%;
   padding-left: 40px;
@@ -133,15 +146,15 @@ main {
 
   >.red {
     font-size: 20px;
-    color: red;
+    color: #ff414b;
   }
 
   >.trasp {
-    color: rgba(255, 255, 255, 0.473);
+    color: #98939f;
   }
 
   >.wave {
-    color: yellow;
+    color: #fff941;
     font-size: 40px;
   }
 }
@@ -157,6 +170,11 @@ main {
   background-color: #4154FF;
   color: white;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.light-b:hover {
+  background-color: #5a6afc;
 }
 
 .dark-b {
@@ -168,9 +186,16 @@ main {
   margin-right: 50px;
   background-color: #060607;
   color: white;
+  cursor: pointer;
 }
 
+.dark-b:hover {
+  border-color: #ff414b;
 
+  > a{
+    color: #ff414b;
+  }
+}
 
 .jumbotron-images {
   display: flex;
@@ -219,7 +244,7 @@ main {
 }
 
 .text-contenitor {
-  background: linear-gradient(0deg, rgba(6,6,7,1) 0%, rgba(6,6,7,0.6054796918767507) 42%);
+  background: linear-gradient(0deg, rgba(6, 6, 7, 1) 0%, rgba(6, 6, 7, 0.6054796918767507) 42%);
   height: 503px;
   padding-left: 30px;
   padding-top: 330px;
@@ -235,7 +260,7 @@ main {
 
   >p {
     font-size: 20px;
-    color: yellow;
+    color: #fff941;
   }
 }
 
@@ -266,7 +291,7 @@ main {
 /* HEALTH */
 #health {
   background-color: white;
-  height: 1400px;
+  height: 1500px;
 }
 
 .health-contanitor {
@@ -322,26 +347,31 @@ main {
   }
 
   >button {
-    background-color: red;
+    background-color: #ff414b;
     color: white;
     width: 30%;
     height: 40px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+  }
+
+  >button:hover {
+    background-color: #ff000d;
   }
 }
 
-.text-featured{
+.text-featured {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 40px;
 
-  > h5{
+  >h5 {
     font-size: 20px;
   }
 
-  > p {
+  >p {
     padding-right: 50px;
     font-weight: bold;
   }
@@ -366,21 +396,26 @@ main {
     border-bottom-right-radius: 50px;
   }
 
-  > button{
+  >button {
     font-size: 40px;
     position: relative;
     bottom: 170px;
-    
+
   }
 
-  > p {
+  >p {
     color: #4154FF;
-    padding-top: 20px; 
-   }
+    padding-top: 20px;
+    cursor: pointer;
+  }
+
+  >p:hover{
+    font-size: 18px;
+  }
 }
 
 /* JOIN */
-#join{
+#join {
   height: 100%;
   background-color: #060607;
 }
@@ -390,10 +425,10 @@ main {
   background-size: cover;
   object-fit: contain;
   height: 700px;
-  width: 100%; 
+  width: 100%;
 }
 
-.join-email{
+.join-email {
   width: 65%;
   height: 40px;
   padding: 20px;
@@ -403,17 +438,17 @@ main {
 
 }
 
-#join-text{
+#join-text {
   padding: 0 0px;
 }
 
-.jumbotron-text{
-  > p {
+.jumbotron-text {
+  >p {
     margin-top: 20px;
-    color: #707070;
+    color: #98939f;
     padding-right: 150px;
   }
-} 
+}
 
 /* LEARN */
 #learn {
@@ -421,7 +456,7 @@ main {
   height: auto;
 }
 
-.learn-wrap{
+.learn-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -430,7 +465,7 @@ main {
 
 }
 
-.card-body{
+.card-body {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -439,17 +474,30 @@ main {
   color: white;
   border: solid 2px #4154FF;
 
-  > p{
+  >h5{
+    font-size: 20px;
+  }
+
+  >.card-text{
+    color: #fff941;
+    margin-top: 5px;
+  }
+
+  >p {
     margin-bottom: 50px;
   }
 }
 
-.card-text{
+.light-inf{
+  color: #98939f;
+}
+
+.card-text {
   margin-bottom: 50px;
 }
 
 /* LATEST */
-#latest{
+#latest {
   height: auto;
 }
 
@@ -472,27 +520,31 @@ main {
     padding-bottom: 30px;
   }
 
-  > p {
-    color: #4154FF;
-    padding-top: 20px; 
-    
-   }
+  >p {
+    color: #98939f;
+    padding-top: 20px;
+
+  }
 }
 
-.text-latest{
+.text-latest {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 40px;
   margin-top: 50px;
 
-  > h5{
+  >h5 {
     font-size: 20px;
   }
 
-  > p {
+  >p {
     padding-right: 50px;
     font-weight: bold;
+    cursor: pointer;
+  }
+
+  p:hover{
+    margin-right: 10px;
   }
 }
 
@@ -502,11 +554,11 @@ main {
   background-size: cover;
   object-fit: contain;
   height: 700px;
-  width: 100%; 
+  width: 100%;
 }
 
-.buy-avada-text{
-  background: linear-gradient(0deg, rgba(6,6,7,1) 0%, rgba(6,6,7,0.6054796918767507) 42%);
+.buy-avada-text {
+  background: linear-gradient(0deg, rgba(6, 6, 7, 1) 0%, rgba(6, 6, 7, 0.6054796918767507) 42%);
   height: 100%;
   width: 100%;
   padding-left: 40px;
@@ -516,7 +568,7 @@ main {
   justify-content: center;
   gap: 10px;
   text-align: center;
-  padding: 0 300px;
+  padding: 0 575px;
 
   >h1 {
     font-size: 40px;
@@ -524,15 +576,87 @@ main {
 
   >.red {
     font-size: 20px;
-    color: red;
+    color: #ff414b;
   }
 
   >.trasp {
-    color: rgba(255, 255, 255, 0.473);
+    color: #98939f;
   }
 
   >.wave {
-    color: yellow;
+    color: #fff941;
     font-size: 40px;
   }
+}
+
+.lighter-b {
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  margin-right: 30px;
+  background-color: #4154FF;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.lighter-b:hover {
+  background-color: #5a6afc;
+
+  >i{
+    margin-left: 10px;
+  }
+}
+
+/* CLASS */
+#class{
+  height: 500px;
+}
+
+.class-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.class-body{
+  margin: 70px 0;
+  width: calc((100% / 4) - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px;
+
+  >img{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  >span{
+    color: #4154FF;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  >p{
+    color: #98939f;
+  }
+}
+
+.dark-class{
+  color: #060607;
+  margin-top: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dark-class:hover{
+  font-size: 18px;
+
+>i{
+  margin-left: 10px;
+}
 }

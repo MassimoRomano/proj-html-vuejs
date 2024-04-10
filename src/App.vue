@@ -16,26 +16,29 @@ export default {
     <!-- HEADER -->
     <header>
       <div class="container">
-        <div class="logo">
-          <img src="/public/image/logo.png" alt="" srcset="">
-        </div>
-        <div class="d-flex">
-          <div class="menu">
-            <ul class="text-c d-flex unstyled g-2">
-              <li><a href="">Home</a></li>
-              <li><a href="">Service</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Video</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Store</a></li>
-            </ul>
+        <div class="d-flex align-center j-between">
+          <div class="logo">
+            <img src="/public/image/logo.png" alt="" srcset="">
           </div>
-          <span><a href="">new</a></span>
-          <button class="workout" type="click">
-            <a href="">Schedule a Workout</a>
-          </button>
-          <div class="icon">
-
+          <div class="right-menu d-flex">
+            <div class="menu">
+              <ul class="text-c d-flex unstyled g-2">
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Store</a></li>
+              </ul>
+            </div>
+            <span><a href="">new</a></span>
+            <button class="workout" type="button">
+              <a href="">Schedule a Workout</a>
+            </button>
+            <div class="icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -53,8 +56,9 @@ export default {
               <p class="wave">&#8767&#8767&#8767</p>
               <p class="trasp">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</p>
               <div>
-                <button class="light-b" type="button">Visit my YouTube Channel</button>
-                <button class="dark-b" type="button">Buy Avda Today</button>
+                <button class="light-b" type="button"><a href=""><i class="fa-brands fa-youtube"></i> Visit my YouTube
+                    Channel</a></button>
+                <button class="dark-b" type="button"><a href="">Buy Avda Today</a></button>
               </div>
             </div>
             <span class="play-button"></span>
@@ -123,7 +127,7 @@ export default {
             </div>
             <p class="arcu">Arcu eu facilisi ut quisque nunc habitant.Magna sempre mauris,venenatis,leo integer sit
               pellentesque</p>
-            <button type="button">Visit my YouTube channel</button>
+            <button type="button"><a href=""><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</a></button>
           </div>
         </div>
         <div class="container">
@@ -164,7 +168,7 @@ export default {
               <p class="wave">&#8767&#8767&#8767</p>
               <div>
                 <input class="join-email" type="email" name="" id="" placeholder="Insert your email...*">
-                <button class="light-b" type="button">Subscribe</button>
+                <button class="light-b" type="button"><a href="">Subscribe</a></button>
               </div>
               <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur adipiscing
                 elit sed portitor lectus</p>
@@ -180,23 +184,24 @@ export default {
             <div class="card-body">
               <h5 class="card-title"> Team Training</h5>
               <p class="card-text">Find a partner</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores cupiditate excepturi
+              <p class="light-inf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores
+                cupiditate excepturi
                 necessitatibus, id dolore at temporibus nobis provident.</p>
               <p>FInd a partner <i class="fa-solid fa-chevron-right"></i></p>
             </div>
             <div class="card-body">
               <h5 class="card-title"> Team Training</h5>
               <p class="card-text">Find a partner</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores cupiditate excepturi
+              <p class="light-inf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores
+                cupiditate excepturi
                 necessitatibus, id dolore at temporibus nobis provident.</p>
               <p>FInd a partner <i class="fa-solid fa-chevron-right"></i></p>
             </div>
             <div class="card-body">
-              <div class="card-text">
-                <h5> Team Training</h5>
-                <p>Find a partner</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores cupiditate excepturi
+              <h5 class="card-title"> Team Training</h5>
+              <p class="card-text">Find a partner</p>
+              <p class="light-inf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit dolores
+                cupiditate excepturi
                 necessitatibus, id dolore at temporibus nobis provident.</p>
               <p>FInd a partner <i class="fa-solid fa-chevron-right"></i></p>
             </div>
@@ -234,15 +239,51 @@ export default {
       <!-- BUY-AVADA -->
       <section id="buy-avada">
         <div class="buy-jumbotron">
-            <div class="buy-avada-text" id="buy-text">
-              <h1>"I've failed over and over again in my life.And that is why I succeed."</h1>
-              <p class="wave">&#8767&#8767&#8767</p>
-              <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur adipiscing
-                elit sed portitor lectus</p>
-              <div>
-                <button class="light-b" type="button">Subscribe</button>
-              </div>
+          <div class="buy-avada-text" id="buy-text">
+            <h1>"I've failed over and over again in my life.And that is why I succeed."</h1>
+            <p class="wave">&#8767&#8767&#8767</p>
+            <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur adipiscing
+              elit sed portitor lectus</p>
+            <div>
+              <button class="lighter-b" type="click">Bui Avada today <i class="fa-solid fa-chevron-right"></i></button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLASS -->
+      <section id="class">
+        <div class="container">
+          <div class="class-wrap">
+            <div class="class-body">
+              <img src="/public/image/sponsor-1-2x.png" alt="">
+              <span>&#8767&#8767&#8767</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, nobis quaerat architecto dolores
+                quo autem vitae nihil modi delectus corporis</p>
+              <a class="dark-class">View all videos <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="class-body">
+              <img src="/public/image/sponsor-2-2x.png" alt="">
+              <span>&#8767&#8767&#8767</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, nobis quaerat architecto dolores
+                quo autem vitae nihil modi delectus corporis</p>
+              <a class="dark-class">View all videos <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="class-body">
+              <img src="/public/image/sponsor-3-2x.png" alt="">
+              <span>&#8767&#8767&#8767</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, nobis quaerat architecto dolores
+                quo autem vitae nihil modi delectus corporis</p>
+              <a class="dark-class">View all videos <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="class-body">
+              <img src="/public/image/sponsor-4-2x.png" alt="">
+              <span>&#8767&#8767&#8767</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, nobis quaerat architecto dolores
+                quo autem vitae nihil modi delectus corporis</p>
+              <a class="dark-class">View all videos <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
         </div>
       </section>
 
