@@ -50,4 +50,5 @@ export default {
 </template>
 
 <style>
+@import url('/src/assets/css/_footer.css');
 </style>

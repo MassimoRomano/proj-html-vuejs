@@ -1,0 +1,114 @@
+/* Header */
+header {
+    height: 100px;
+    padding: 1.7rem 0;
+    background-color: #060607;
+  }
+  
+  .menu {
+    gap: 1.5rem;
+  }
+  
+  ul li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    color: white;
+  }
+  
+  span a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    background-color: #fff941;
+    padding: 3px 8px;
+    margin: 0px 20px 0 5px;
+    border-radius: 2px;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .workout {
+    background-color: #4154FF;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    margin: 0px 20px 0 20px;
+  }
+  
+  .workout:hover {
+    background-color: #5a6afc;
+  }
+  
+  .icon {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .icon > i {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .icon > i:hover {
+    color: #4154FF;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    color: #98939f;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .dropdown-toggle:hover {
+    color: #ffffff;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #4154FF;
+  }
